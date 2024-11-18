@@ -88,7 +88,12 @@
     margin: 0% 1%;
     position: relative;
     left: 5%;
-  
+  transform: scale(1, 1);
+}
+
+.product_image_div:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s 0s linear;
 }
 
 #image1{
